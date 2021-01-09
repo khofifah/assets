@@ -1,0 +1,36 @@
+name: belajar_flutter
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  flutter_screenutil: ^4.0.2+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  assets:
+    - assets/
+    - assets/Images/
+    - assets/Icons/
+  
+  fonts:
+    - family: BlackRose
+      fonts:
+        - asset: fonts/BlackRose.ttf
+    - family: BlackCasper
+      fonts:
+        - asset: fonts/BlackCasper.ttf
+    - family: BlackoutMidnight
+      fonts:
+        - asset: fonts/BlackoutMidnight.ttf
+        
+  uses-material-design: true
